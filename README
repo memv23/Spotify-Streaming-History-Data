@@ -20,3 +20,6 @@ There is no refresh token included because my streaming history was not too big 
 ¯\_(ツ)_/¯
 
 You can then import the CSV file into Microsoft Power BI or write some more Python to visualize the data you've collected.
+
+
+https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/
