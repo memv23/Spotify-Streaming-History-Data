@@ -1,0 +1,18 @@
+To use, go to: https://developer.spotify.com/dashboard/
+and register your app.
+
+Replace "REDACTED" info with your own private client & secret IDs, as well as your own user ID. 
+
+Install Spotipy: https://spotipy.readthedocs.io/en/2.11.1/
+Running 'Spotify Streaming History Data 1.py' will produce a JSON file, and
+Running 'Spotify Streaming History Data 2.py' will open the JSON file created from the previous program, and produce another JSON file.
+Running Spotify Streaming History Data 3.py' will open the last JSON file created and export a CSV file.
+
+The reason it's broken up into three separate programs is due to the rate-limited nature of Spotify's API.
+If your streaming history is too large, the program will time out before finishing because there is no refresh token included in this program.
+
+There is no refresh token included because my streaming history was not too big to use and also I couldn't figure the refresh token out.
+
+¯\_(ツ)_/¯
+
+You can import the CSV file into Microsoft Power BI or similar and visualize the data you've collected.
